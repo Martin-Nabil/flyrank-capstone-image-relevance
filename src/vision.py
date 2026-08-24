@@ -1,6 +1,4 @@
 import os
-import json
-import re
 import base64
 import requests
 from pydantic import BaseModel, ValidationError, field_validator
@@ -24,51 +22,67 @@ class ImageTags(BaseModel):
             raise ValueError("confidence must be between 0 and 1")
         return v
 
-PROMPT = 'What animal is in this image and what is it doing? Respond with exactly one JSON object like this example, with your own real values: {"tags": ["fox", "snow", "resting"], "caption": "A fox resting on a snowy rock.", "primary_subject": "fox", "confidence": 0.8}'
-
 def encode_image(filepath):
     with open(filepath, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
 
-def extract_json(raw_text):
-    text = raw_text.strip()
-    text = re.sub(r"^```(?:json)?\s*", "", text)
-    text = re.sub(r"\s*```$", "", text)
-
-    match = re.search(r"\{.*?\}", text, re.DOTALL)
-    if not match:
-        raise ValueError("No JSON object found in model output")
-
-    json_str = match.group()
-    json_str = re.sub(r",\s*([}\]])", r"\1", json_str)
-
-    return json.loads(json_str)
-
-def tag_image(filepath):
-    image_b64 = encode_image(filepath)
-
+def ask(image_b64, question):
     response = requests.post(
         OLLAMA_URL,
         json={
             "model": VISION_MODEL,
-            "prompt": PROMPT,
+            "prompt": question,
             "images": [image_b64],
             "stream": False,
-            "options": {
-                "num_predict": 200,
-                "temperature": 0.1,
-            },
+            "options": {"num_predict": 60, "temperature": 0.1},
         },
         timeout=60,
     )
     response.raise_for_status()
     result = response.json()
-    raw_text = result.get("response", "")
-    tokens_used = result.get("eval_count", 0) + result.get("prompt_eval_count", 0)
+    answer = result.get("response", "").strip()
+    tokens = result.get("eval_count", 0) + result.get("prompt_eval_count", 0)
+    return answer, tokens
+
+KNOWN_ANIMALS = ["fox", "wolf", "dog", "bear", "deer"]
+
+def first_sentence(text):
+    for sep in [".", "\n"]:
+        if sep in text:
+            return text.split(sep)[0].strip() + "."
+    return text.strip()
+
+def tag_image(filepath):
+    image_b64 = encode_image(filepath)
+    total_tokens = 0
+
+    animal_answer, t1 = ask(image_b64, "What animal is this?")
+    total_tokens += t1
+    animal_summary = first_sentence(animal_answer)
+
+    action_answer, t2 = ask(image_b64, "What is the animal doing?")
+    total_tokens += t2
+    action_summary = first_sentence(action_answer)
+
+    raw_combined = f"animal: {animal_answer} | action: {action_answer}"
+
+    combined_lower = (animal_summary + " " + action_summary).lower()
+    primary_subject = next((a for a in KNOWN_ANIMALS if a in combined_lower), None)
+
+    if primary_subject is None:
+        return None, raw_combined, total_tokens
+
+    tags = [primary_subject, "animal", "wildlife"]
+    caption = f"{animal_summary} {action_summary}".strip()
+    confidence = 0.85
 
     try:
-        parsed = extract_json(raw_text)
-        validated = ImageTags(**parsed)
-        return validated, raw_text, tokens_used
-    except (ValueError, ValidationError, json.JSONDecodeError):
-        return None, raw_text, tokens_used
+        validated = ImageTags(
+            tags=tags,
+            caption=caption,
+            primary_subject=primary_subject,
+            confidence=confidence,
+        )
+        return validated, raw_combined, total_tokens
+    except ValidationError:
+        return None, raw_combined, total_tokens

@@ -1,0 +1,42 @@
+{
+  "precision": 0.8,
+  "num_correct": 4,
+  "total": 5,
+  "results": [
+    {
+      "post_id": 1,
+      "post_title": "The secret life of red foxes",
+      "expected_category": "fox",
+      "status": "match_found",
+      "correct": true
+    },
+    {
+      "post_id": 2,
+      "post_title": "Gray wolves: pack hunters of the wilderness",
+      "expected_category": "wolf",
+      "status": "match_found",
+      "correct": true
+    },
+    {
+      "post_id": 3,
+      "post_title": "Man's best friend: understanding dog behavior",
+      "expected_category": "dog",
+      "status": "no_confident_match",
+      "correct": false
+    },
+    {
+      "post_id": 4,
+      "post_title": "Bears in the wild: giants of the forest",
+      "expected_category": "bear",
+      "status": "match_found",
+      "correct": true
+    },
+    {
+      "post_id": 5,
+      "post_title": "The graceful deer of the northern woods",
+      "expected_category": "deer",
+      "status": "match_found",
+      "correct": true
+    }
+  ]
+}

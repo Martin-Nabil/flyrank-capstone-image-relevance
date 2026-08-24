@@ -2,7 +2,7 @@ import json
 from src.db import get_db
 from src.embeddings import cosine_similarity
 
-SIMILARITY_THRESHOLD = 0.55
+SIMILARITY_THRESHOLD = 0.53
 MIN_CONFIDENCE = 0.6
 
 def rank_images_for_post(post_embedding, all_images):

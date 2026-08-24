@@ -1,0 +1,352 @@
+[
+  {
+    "filename": "fox_1.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/fox-lie-on-cold-ground-in-winter-19983817/",
+    "photographer": "Niklas Lang",
+    "pexels_id": 19983817
+  },
+  {
+    "filename": "fox_2.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/red-fox-near-wood-3880184/",
+    "photographer": "patrice schoefolt",
+    "pexels_id": 3880184
+  },
+  {
+    "filename": "fox_3.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/a-person-feeding-wild-fox-on-the-road-9681748/",
+    "photographer": "Erik Mclean",
+    "pexels_id": 9681748
+  },
+  {
+    "filename": "fox_4.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/wild-fox-sitting-on-green-grass-17093663/",
+    "photographer": "Abdullah Dawud",
+    "pexels_id": 17093663
+  },
+  {
+    "filename": "fox_5.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/foxes-lying-down-at-field-27114106/",
+    "photographer": "Brett Jordan",
+    "pexels_id": 27114106
+  },
+  {
+    "filename": "fox_6.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/brown-fox-lying-on-green-grass-8650973/",
+    "photographer": "Brett Jordan",
+    "pexels_id": 8650973
+  },
+  {
+    "filename": "fox_7.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/red-fox-sitting-on-the-steps-26970106/",
+    "photographer": "Radik 2707",
+    "pexels_id": 26970106
+  },
+  {
+    "filename": "fox_8.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/close-up-photo-of-a-fox-on-the-street-9681760/",
+    "photographer": "Erik Mclean",
+    "pexels_id": 9681760
+  },
+  {
+    "filename": "fox_9.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/a-fox-sitting-outdoors-23914490/",
+    "photographer": "Tom\u00e1\u0161 Mal\u00edk",
+    "pexels_id": 23914490
+  },
+  {
+    "filename": "fox_10.jpg",
+    "category": "fox",
+    "source_url": "https://www.pexels.com/photo/brown-fox-walking-on-the-asphalt-road-9681754/",
+    "photographer": "Erik Mclean",
+    "pexels_id": 9681754
+  },
+  {
+    "filename": "wolf_1.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/stunning-portrait-of-a-majestic-grey-wolf-30004291/",
+    "photographer": "Rob Bertrand",
+    "pexels_id": 30004291
+  },
+  {
+    "filename": "wolf_2.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/close-up-of-a-gray-wolf-in-natural-habitat-28541402/",
+    "photographer": "Andreas Schnabl",
+    "pexels_id": 28541402
+  },
+  {
+    "filename": "wolf_3.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/brown-wolfs-on-brown-sand-12859255/",
+    "photographer": "Natarajan M",
+    "pexels_id": 12859255
+  },
+  {
+    "filename": "wolf_4.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/wolves-beside-big-rocks-14040311/",
+    "photographer": "Mehmet Turgut  Kirkgoz",
+    "pexels_id": 14040311
+  },
+  {
+    "filename": "wolf_5.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/photo-of-a-wolfdog-12960017/",
+    "photographer": "patrice schoefolt",
+    "pexels_id": 12960017
+  },
+  {
+    "filename": "wolf_6.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/a-close-up-shot-of-a-wolf-7249475/",
+    "photographer": "Vincent M.A. Janssen",
+    "pexels_id": 7249475
+  },
+  {
+    "filename": "wolf_7.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/wild-wolf-carrying-prey-in-forest-setting-29448267/",
+    "photographer": "Omar Ramadan",
+    "pexels_id": 29448267
+  },
+  {
+    "filename": "wolf_8.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/standing-woolf-licking-on-lips-15578844/",
+    "photographer": "David Selbert",
+    "pexels_id": 15578844
+  },
+  {
+    "filename": "wolf_9.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/portrait-of-a-wolf-21655742/",
+    "photographer": "patrice schoefolt",
+    "pexels_id": 21655742
+  },
+  {
+    "filename": "wolf_10.jpg",
+    "category": "wolf",
+    "source_url": "https://www.pexels.com/photo/pair-of-wolves-in-natural-habitat-28573531/",
+    "photographer": "Andreas Schnabl",
+    "pexels_id": 28573531
+  },
+  {
+    "filename": "dog_1.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/two-dogs-on-a-sidewalk-in-izmir-turkiye-38306667/",
+    "photographer": "Do\u011fan Alpaslan  Demir",
+    "pexels_id": 38306667
+  },
+  {
+    "filename": "dog_2.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/close-up-shot-of-dogs-8093682/",
+    "photographer": "Neslihan Ercan",
+    "pexels_id": 8093682
+  },
+  {
+    "filename": "dog_3.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/adorable-black-and-white-puppies-on-a-street-38221522/",
+    "photographer": "dishank sheth",
+    "pexels_id": 38221522
+  },
+  {
+    "filename": "dog_4.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/white-medium-coat-medium-dog-144608/",
+    "photographer": "Suvan Chowdhury",
+    "pexels_id": 144608
+  },
+  {
+    "filename": "dog_5.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/playful-puppies-wrestling-outdoors-on-a-sunny-day-29609216/",
+    "photographer": "Hanifi Sar\u0131kaya",
+    "pexels_id": 29609216
+  },
+  {
+    "filename": "dog_6.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/dogs-on-wall-15038370/",
+    "photographer": "Mara Andrade",
+    "pexels_id": 15038370
+  },
+  {
+    "filename": "dog_7.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/grayscale-photo-of-a-dog-on-snow-covered-ground-10873290/",
+    "photographer": "analogue enjoyer",
+    "pexels_id": 10873290
+  },
+  {
+    "filename": "dog_8.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/close-up-portrait-of-a-black-labrador-dog-outdoors-34316631/",
+    "photographer": "Havanna  Sousa",
+    "pexels_id": 34316631
+  },
+  {
+    "filename": "dog_9.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/street-dogs-on-a-pavement-in-izmir-turkiye-38308280/",
+    "photographer": "Do\u011fan Alpaslan  Demir",
+    "pexels_id": 38308280
+  },
+  {
+    "filename": "dog_10.jpg",
+    "category": "dog",
+    "source_url": "https://www.pexels.com/photo/a-dog-is-standing-on-top-of-two-puppies-28352168/",
+    "photographer": "Swagoto Mondal",
+    "pexels_id": 28352168
+  },
+  {
+    "filename": "bear_1.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/bears-batching-in-a-river-18453573/",
+    "photographer": "Oliver  Morgan Media",
+    "pexels_id": 18453573
+  },
+  {
+    "filename": "bear_2.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/bears-on-a-hill-19140962/",
+    "photographer": "Carlos Mazorra",
+    "pexels_id": 19140962
+  },
+  {
+    "filename": "bear_3.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/polar-bears-in-a-zoo-26755454/",
+    "photographer": "Francesco Ungaro",
+    "pexels_id": 26755454
+  },
+  {
+    "filename": "bear_4.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/grayscale-photo-of-bears-7340096/",
+    "photographer": "Ann Perkas",
+    "pexels_id": 7340096
+  },
+  {
+    "filename": "bear_5.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/close-up-of-fighting-bears-cubs-17936269/",
+    "photographer": "Susanne Jutzeler, suju-foto",
+    "pexels_id": 17936269
+  },
+  {
+    "filename": "bear_6.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/a-bear-laying-on-a-log-in-an-enclosure-28267592/",
+    "photographer": "White Noiise",
+    "pexels_id": 28267592
+  },
+  {
+    "filename": "bear_7.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/brown-bears-playing-on-the-lake-7266172/",
+    "photographer": "Alexas Fotos",
+    "pexels_id": 7266172
+  },
+  {
+    "filename": "bear_8.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/bears-resting-on-stone-blocks-16458278/",
+    "photographer": "Louis",
+    "pexels_id": 16458278
+  },
+  {
+    "filename": "bear_9.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/bear-lying-down-on-ground-26800282/",
+    "photographer": "Ali Kazal",
+    "pexels_id": 26800282
+  },
+  {
+    "filename": "bear_10.jpg",
+    "category": "bear",
+    "source_url": "https://www.pexels.com/photo/bears-walking-in-forest-14382745/",
+    "photographer": "Andreas Ebner",
+    "pexels_id": 14382745
+  },
+  {
+    "filename": "deer_1.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deers-in-the-forest-during-golden-hour-10812818/",
+    "photographer": "Sirwon Creations",
+    "pexels_id": 10812818
+  },
+  {
+    "filename": "deer_2.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deer-on-brown-field-4463129/",
+    "photographer": "Abi Mauludhi",
+    "pexels_id": 4463129
+  },
+  {
+    "filename": "deer_3.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/a-herd-of-deer-10836418/",
+    "photographer": "Nicky Pe",
+    "pexels_id": 10836418
+  },
+  {
+    "filename": "deer_4.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deer-on-green-grass-field-4654632/",
+    "photographer": "Gantas Vai\u010diul\u0117nas",
+    "pexels_id": 4654632
+  },
+  {
+    "filename": "deer_5.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/three-brown-deers-laying-down-1556364/",
+    "photographer": "Debabrata Das",
+    "pexels_id": 1556364
+  },
+  {
+    "filename": "deer_6.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/close-up-of-a-female-deer-in-israeli-forest-30070549/",
+    "photographer": "Gal Shapira",
+    "pexels_id": 30070549
+  },
+  {
+    "filename": "deer_7.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/young-red-deer-18291217/",
+    "photographer": "Miguel Cuenca",
+    "pexels_id": 18291217
+  },
+  {
+    "filename": "deer_8.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deer-standing-on-brown-soil-3736574/",
+    "photographer": "Buddh Sharan Sahu",
+    "pexels_id": 3736574
+  },
+  {
+    "filename": "deer_9.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/brown-deer-with-large-antlers-10906728/",
+    "photographer": "Lewis Ashton",
+    "pexels_id": 10906728
+  },
+  {
+    "filename": "deer_10.jpg",
+    "category": "deer",
+    "source_url": "https://www.pexels.com/photo/close-up-of-deer-antlers-18043448/",
+    "photographer": "Radwan Menzer",
+    "pexels_id": 18043448
+  }
+]
